@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="parentPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SingupController">
+   <children>
+      <TextField fx:id="name" layoutX="198.0" layoutY="146.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="198.0" layoutY="191.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Rassword">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <RadioButton fx:id="male" layoutX="198.0" layoutY="240.0" mnemonicParsing="false" text="  Male" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="female" layoutX="333.0" layoutY="240.0" mnemonicParsing="false" text="  Female" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="location" layoutX="198.0" layoutY="283.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="singup" layoutX="198.0" layoutY="327.0" mnemonicParsing="false" onAction="#singUP" prefHeight="30.0" prefWidth="212.0" text="Sing UP">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="113.0" fitWidth="171.0" layoutX="177.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/image/java_logo.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="progress" fitHeight="70.0" fitWidth="70.0" layoutX="500.0" layoutY="300.0">
+         <image>
+            <Image url="@../Resources/image/main-loader.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="login" layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#loginAction" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="282.0" layoutY="48.0" text="Java" textFill="#f50a0a">
+         <font>
+            <Font size="48.0" />
+       </font>
+      </Label>
+   </children>
+</AnchorPane>
