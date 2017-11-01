@@ -66,50 +66,79 @@ public class LoginController implements Initializable {
 
         progress.setVisible(true);
         PauseTransition pt = new PauseTransition();
-        pt.setDuration(Duration.seconds(3));
-        pt.setOnFinished(even ->
-                System.out.println("Login Successfully")
-        );
+        pt.setDuration(Duration.seconds(1));
+        pt.setOnFinished(even -> {
+            
+            System.out.println("Login Successfully");
 
-        pt.play();
+            //Retrive Data from DataBase;
 
-        //Retrive Data from DataBase;
+            connection = handler.getConnection();
+            String q1 = "SELECT * from youtubers where names=? and password=?";
 
-        connection = handler.getConnection();
-        String q1 = "SELECT * from youtubers where names=? and password=?";
-
-        try {
-            pst = (PreparedStatement) connection.prepareStatement(q1);
-
-            pst.setString(1, username.getText());
-            pst.setString(2,password.getText());
-            ResultSet rs = pst.executeQuery();
-
-            int count = 0;
-
-            while (rs.next()){
-                count=count+1;
-            }
-
-            if (count==1){
-                System.out.println("Login Successful");
-            }
-            else {
-                System.out.println("Username or Password is not Correct");
-            }
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        finally {
             try {
-                connection.close();
+                pst = (PreparedStatement) connection.prepareStatement(q1);
+
+                pst.setString(1, username.getText());
+                pst.setString(2, password.getText());
+                ResultSet rs = pst.executeQuery();
+
+                int count = 0;
+
+                while (rs.next()){
+
+                    count=count+1;
+                }
+
+                if (count==1){
+
+                    //  System.out.println("Login Successful");
+
+                    login.getScene().getWindow().hide();
+
+                    Stage home = new Stage();
+                    try {
+
+                        Parent root = FXMLLoader.load(getClass().getResource("/FXML/HomePage.fxml"));
+                        Scene scene = new Scene(root);
+                        home.setScene(scene);
+                        home.show();
+
+                    } catch (IOException e) {
+
+                        e.printStackTrace();
+
+                    }
+
+
+                }
+                else {
+
+                     System.out.println("Username or Password is not Correct");
+
+                    Alert alert = new Alert(Alert.AlertType.ERROR);
+                    alert.setHeaderText(null);
+                    alert.setContentText("Username or Password is not Correct");
+                    alert.show();
+                    progress.setVisible(false);
+
+                }
+
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-        }
 
+            finally {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        });
+
+        pt.play();
 
     }
 
