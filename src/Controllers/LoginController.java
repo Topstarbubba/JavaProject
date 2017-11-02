@@ -68,7 +68,7 @@ public class LoginController implements Initializable {
         PauseTransition pt = new PauseTransition();
         pt.setDuration(Duration.seconds(1));
         pt.setOnFinished(even -> {
-            
+
             System.out.println("Login Successfully");
 
             //Retrive Data from DataBase;
@@ -109,7 +109,6 @@ public class LoginController implements Initializable {
                         e.printStackTrace();
 
                     }
-
 
                 }
                 else {
