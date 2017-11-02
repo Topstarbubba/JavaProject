@@ -1,5 +1,7 @@
 package Controllers;
 
+import com.jfoenix.controls.JFXPopup;
+import com.jfoenix.controls.JFXRippler;
 import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -36,14 +38,15 @@ public class HomePageController implements Initializable{
 
 
 
-    AnchorPane home;
+    private AnchorPane home;
 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+
         JFXRippler rippler = new JFXRippler(lblMenu);
-        rippler.setMaskType(JFXRippler.RipperMask.RECT);
+        rippler.setMaskType(JFXRippler.RipplerMask.RECT);
         toolBarRight.getChildren().add(rippler);
 
 
@@ -59,9 +62,9 @@ public class HomePageController implements Initializable{
         JFXPopup pop = new JFXPopup();
         pop.setContent(overflowContainer);
         pop.setPopupContainer(anchor);
-        pop.setSource(lblmenu);
+        pop.setSource(lblMenu);
 
-        lblmenu.setOnMouseClicked(event -> (
+        lblMenu.setOnMouseClicked(event -> (
 
                 pop.show(JFXPopup.Popup)
 
