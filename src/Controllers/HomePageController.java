@@ -36,40 +36,15 @@ public class HomePageController implements Initializable{
     @FXML
     private AnchorPane holderPane;
 
-
-
+    @FXML
     private AnchorPane home;
 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+          createPage();
 
-        JFXRippler rippler = new JFXRippler(lblMenu);
-        rippler.setMaskType(JFXRippler.RipplerMask.RECT);
-        toolBarRight.getChildren().add(rippler);
-
-
-        openMenus();
-        createPage();
-
-
-
-    }
-
-    private void openMenus(){
-
-        JFXPopup pop = new JFXPopup();
-        pop.setContent(overflowContainer);
-        pop.setPopupContainer(anchor);
-        pop.setSource(lblMenu);
-
-        lblMenu.setOnMouseClicked(event -> (
-
-                pop.show(JFXPopup.Popup)
-
-
-                ));
     }
 
     private void setNode(Node node){
