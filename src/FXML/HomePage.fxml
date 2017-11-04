@@ -17,11 +17,6 @@
          <children>
             <AnchorPane layoutY="98.0" prefHeight="300.0" prefWidth="150.0">
                <children>
-                  <Label layoutX="127.0" layoutY="133.0" opacity="0.7" text="0" textFill="#eee9e9">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
                   <Label layoutX="34.0" layoutY="28.0" text="Welcome !" textFill="#ebe5e5">
                      <font>
                         <Font name="Franklin Gothic Medium Italic" size="18.0" />

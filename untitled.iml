@@ -19,7 +19,16 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/jfoenix.jar!/" />
+          <root url="jar://C:/!Work/Development/!JavaFX/JFoenix/jfoenix-9.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/!Work/Development/!JavaFX/JFoenix/jfoenix.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
