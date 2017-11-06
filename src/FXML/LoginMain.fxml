@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
    <children>
       <TextField fx:id="username" layoutX="151.0" layoutY="142.0" prefHeight="25.0" prefWidth="303.0" promptText="Enter your Username">
          <font>
@@ -52,7 +52,7 @@
             <Font size="48.0" />
          </font>
       </Label>
-      <ImageView id="progress" fx:id="progress" fitHeight="70.0" fitWidth="70.0" layoutX="500.0" layoutY="300.0">
+      <ImageView id="progress" fx:id="progress" fitHeight="70.0" fitWidth="70.0" layoutX="495.0" layoutY="300.0">
          <image>
             <Image url="@../Resources/image/main-loader.gif" />
          </image>
