@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled/Application/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled/Controllers/HomePageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled/Controllers/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled/Controllers/SingupController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled/DBConnection/Configs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled/DBConnection/DBHandler.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FXML/LoginMain.fxml" afterPath="$PROJECT_DIR$/src/FXML/LoginMain.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FXML/SingUP.fxml" afterPath="$PROJECT_DIR$/src/FXML/SingUP.fxml" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="408">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginMain.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginMain.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FXML/LoginMain.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
@@ -105,8 +95,6 @@
               <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-                <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-                <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
                 <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
               </folding>
             </state>
@@ -218,7 +206,7 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
@@ -243,19 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="untitled" type="58d84e3e:PackageViewProjectNode" />
-              <item name="untitled" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,6 +277,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="58d84e3e:PackageViewProjectNode" />
+              <item name="untitled" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -549,11 +537,12 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28070176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -564,7 +553,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20916906" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21203439" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20773639" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -579,7 +568,6 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28070176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -662,8 +650,6 @@
           <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
             <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
           </folding>
         </state>
@@ -723,8 +709,6 @@
           <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
             <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
           </folding>
         </state>
@@ -771,8 +755,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
             <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
           </folding>
         </state>
@@ -799,8 +781,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
             <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
           </folding>
         </state>
@@ -826,8 +806,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
             <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
           </folding>
         </state>
@@ -853,8 +831,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
             <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
           </folding>
         </state>
@@ -879,8 +855,6 @@
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
             <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
           </folding>
         </state>
@@ -965,16 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FXML/HomePage.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1019,9 +983,17 @@
           <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <marker date="1510012665482" expanded="true" signature="2631:2783" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2650:2768" ph="..." />
-            <marker date="1510012665482" expanded="true" signature="2667:2749" ph="..." />
             <marker date="1510012665482" expanded="true" signature="2728:2749" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
