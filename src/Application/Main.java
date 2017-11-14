@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class Main extends Application {
 
@@ -14,6 +15,7 @@ public class Main extends Application {
           Parent root = FXMLLoader.load(getClass().getResource("../FXML/LoginMain.fxml"));
           primaryStage.setTitle("Java");
           primaryStage.setScene(new Scene(root, 600, 400));
+          primaryStage.initStyle(StageStyle.TRANSPARENT);
           primaryStage.show();
           primaryStage.setResizable(false);
       } catch (Exception e) {

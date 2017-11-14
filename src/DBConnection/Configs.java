@@ -1,10 +1,10 @@
 package DBConnection;
 
-public class Configs {
+class Configs {
 
-    protected static String dbhost = "localhost";
-    protected static String dbport = "3306";
-    protected static String dbuser = "root";
-    protected static String dbpass = "KH1464423";
-    protected static String dbname = "genius";
+    static String dbhost = "localhost";
+    static String dbport = "3306";
+    static String dbuser = "root";
+    static String dbpass = "KH1464423";
+    static String dbname = "genius";
 }

@@ -10,6 +10,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import javafx.util.Duration;
 import javafx.event.ActionEvent;
 
@@ -52,7 +53,6 @@ public class SingupController implements Initializable{
     private Button login;
 
 
-    private Connection connection;
     private DBHandler handler;
     private PreparedStatement pst;
 
@@ -88,7 +88,7 @@ public class SingupController implements Initializable{
         String insert = "INSERT INTO youtubers(names,password,gender,location)"
                 + "VALUES (?,?,?,?)";
 
-        connection = handler.getConnection();
+        Connection connection = handler.getConnection();
         try {
             pst = connection.prepareStatement(insert);
         } catch (SQLException e) {
@@ -117,12 +117,13 @@ public class SingupController implements Initializable{
         Parent root = FXMLLoader.load(getClass().getResource("../FXML/LoginMain.fxml"));
         Scene scene = new Scene(root);
         login.setScene(scene);
+        login.initStyle(StageStyle.TRANSPARENT);
         login.show();
         login.setResizable(false);
 
     }
 
-    public String getGender() {
+    private String getGender() {
         String gen ="";
 
         if (male.isSelected()) {

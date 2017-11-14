@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBHandler extends Configs{
 
-    Connection dbconnection;
+    private Connection dbconnection;
 
     public Connection getConnection() {
 

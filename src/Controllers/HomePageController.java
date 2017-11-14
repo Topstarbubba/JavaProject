@@ -59,6 +59,7 @@ public class HomePageController implements Initializable{
         ft.setCycleCount(1);
         ft.setAutoReverse(false);
         ft.play();
+
     }
 
 
@@ -66,6 +67,7 @@ public class HomePageController implements Initializable{
 
         try {
             home = FXMLLoader.load(getClass().getResource("../FXML/Home.fxml"));
+
             setNode(home);
 
         } catch (IOException ef) {

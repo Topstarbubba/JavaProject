@@ -11,6 +11,7 @@ import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
 import DBConnection.DBHandler;
@@ -151,6 +152,7 @@ public class LoginController implements Initializable {
         Parent root = FXMLLoader.load(getClass().getResource("../FXML/SingUP.fxml"));
         Scene scene = new Scene(root);
         singup.setScene(scene);
+        singup.initStyle(StageStyle.TRANSPARENT);
         singup.show();
         singup.setResizable(false);
 
