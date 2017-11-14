@@ -103,6 +103,7 @@ public class LoginController implements Initializable {
                         Parent root = FXMLLoader.load(getClass().getResource("/FXML/HomePage.fxml"));
                         Scene scene = new Scene(root);
                         home.setScene(scene);
+                        home.initStyle(StageStyle.TRANSPARENT);
                         home.show();
 
                     } catch (IOException e) {
