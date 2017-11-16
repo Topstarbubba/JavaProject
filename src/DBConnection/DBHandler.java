@@ -20,7 +20,7 @@ public class DBHandler extends Configs{
         }
 
         try {
-        dbconnection = DriverManager.getConnection(connectionSting,Configs.dbuser,"");
+        dbconnection = DriverManager.getConnection(connectionSting,Configs.dbuser,Configs.dbpass);
         } catch (SQLException e) {
 
             e.printStackTrace();
