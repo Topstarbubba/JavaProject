@@ -5,7 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/DBConnection/Configs.class" afterPath="$PROJECT_DIR$/out/production/untitled/DBConnection/Configs.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/FXML/HomePage.fxml" afterPath="$PROJECT_DIR$/out/production/untitled/FXML/HomePage.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/Controllers/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DBConnection/Configs.java" afterPath="$PROJECT_DIR$/src/DBConnection/Configs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DBConnection/DBHandler.java" afterPath="$PROJECT_DIR$/src/DBConnection/DBHandler.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
