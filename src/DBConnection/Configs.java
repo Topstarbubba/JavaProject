@@ -7,5 +7,4 @@ class Configs {
     static String dbuser = "root";
     static String dbpass = "";
     static String dbname = "genius";
-
 }

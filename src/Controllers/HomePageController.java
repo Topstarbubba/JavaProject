@@ -25,10 +25,20 @@ public class HomePageController implements Initializable{
     private AnchorPane anchor;
 
     @FXML
+    private HBox toolBarRight;
+
+    @FXML
+    private Label lblMenu;
+
+    @FXML
+    private VBox overflowContainer;
+
+    @FXML
     private AnchorPane holderPane;
 
     @FXML
     private AnchorPane home;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
