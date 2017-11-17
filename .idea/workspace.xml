@@ -78,7 +78,11 @@
             <state relative-caret-position="408">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+=======
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
               <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -90,13 +94,19 @@
       <file leaf-file-name="LoginMain.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FXML/LoginMain.fxml">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-663">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+<<<<<<< HEAD
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
@@ -112,12 +122,15 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="LoginMain.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FXML/LoginMain.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-663">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
+=======
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
       <file leaf-file-name="SingUP.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FXML/SingUP.fxml">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,6 +149,9 @@
           <provider editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+<<<<<<< HEAD
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
               <folding />
             </state>
@@ -185,6 +201,9 @@
             <state relative-caret-position="-73">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -216,6 +235,9 @@
               <folding>
                 <marker date="1510678204660" expanded="true" signature="1850:1940" ph=" INSERT statement (YOUTUBERS)" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -263,6 +285,9 @@
                 <element signature="imports" expanded="true" />
                 <marker date="1510684490250" expanded="true" signature="1788:1840" ph=" SELECT statement (YOUTUBERS)" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -271,6 +296,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="SingupController.java" pinned="false" current-in-tab="false">
@@ -291,12 +317,17 @@
 =======
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
       <file leaf-file-name="HomePageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controllers/HomePageController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="183">
               <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -307,6 +338,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="HomePageController.java" pinned="false" current-in-tab="true">
@@ -321,6 +353,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
@@ -432,6 +466,7 @@
       <pane id="AndroidView" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -476,6 +511,8 @@
           <select />
         </subPane>
       </pane>
+=======
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
@@ -542,7 +579,10 @@
       </pane>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
       <pane id="Scratches" />
@@ -587,6 +627,8 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
           </expand>
           <select />
@@ -612,10 +654,25 @@
               <item name="untitled" type="58d84e3e:PackageViewProjectNode" />
               <item name="untitled" type="616d4139:PackageViewModuleNode" />
             </path>
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="58d84e3e:PackageViewProjectNode" />
+              <item name="untitled" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -834,6 +891,7 @@
   <component name="ToolWindowManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -913,6 +971,17 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16471216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27982646" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -930,6 +999,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -937,6 +1009,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -973,6 +1046,14 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -1019,6 +1100,9 @@
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -1046,6 +1130,7 @@
   <component name="editorHistoryManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/DBConnection/DBHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1068,6 +1153,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
@@ -1354,11 +1441,16 @@
     <entry file="file://$PROJECT_DIR$/src/FXML/LoginMain.fxml">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-663">
@@ -1373,7 +1465,10 @@
       </provider>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1392,6 +1487,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/FXML/HomePage.fxml">
@@ -1436,6 +1532,13 @@
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
+    <entry file="file://$PROJECT_DIR$/src/FXML/Home.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
         </state>
       </provider>
     </entry>
@@ -1443,6 +1546,7 @@
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <provider editor-type-id="text-editor">
@@ -1468,9 +1572,18 @@
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FXML/HomePage.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Application/Main.java">
@@ -1497,6 +1610,12 @@
         <state relative-caret-position="1309">
           <caret line="97" column="13" lean-forward="false" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
+=======
+    <entry file="file://$PROJECT_DIR$/src/Controllers/SingupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="97" column="13" lean-forward="false" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
           <folding>
             <marker date="1510678204660" expanded="true" signature="1850:1940" ph=" INSERT statement (YOUTUBERS)" />
           </folding>
@@ -1507,7 +1626,11 @@
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="1479">
+=======
+        <state relative-caret-position="1628">
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
         <state relative-caret-position="1628">
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
@@ -1522,6 +1645,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Controllers/SingupController.java">
@@ -1541,6 +1665,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBConnection/DBHandler.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Controllers/HomePageController.java">
+>>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
 =======
     <entry file="file://$PROJECT_DIR$/src/Controllers/HomePageController.java">
 >>>>>>> 1b744d544881e85ee6ee87dd02fd0bbf81fe29da
