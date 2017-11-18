@@ -47,7 +47,10 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+<<<<<<< HEAD
 >>>>>>> parent of cca9c99... 15
+=======
+>>>>>>> parent of 94c0b37... 14
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../jfoenix.jar!/" />
