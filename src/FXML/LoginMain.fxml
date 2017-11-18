@@ -11,6 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
             prefWidth="600.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/8.0.121"
             xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
@@ -29,26 +30,26 @@
          <Font size="14.0"/>
       </font>
    </PasswordField>
-   <Button fx:id="singup" layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#singUP" prefHeight="30.0"
-           prefWidth="103.0" text="Sing UP"/>
-   <Button fx:id="login" layoutX="351.0" layoutY="254.0" mnemonicParsing="false" onAction="#loginAction"
+   <JFXButton fx:id="singup" layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#singUP" prefHeight="30.0"
+              prefWidth="103.0" text="Sing UP"/>
+   <JFXButton fx:id="login" layoutX="351.0" layoutY="254.0" mnemonicParsing="false" onAction="#loginAction"
            prefHeight="25.0" prefWidth="103.0" text="Login">
       <font>
          <Font size="14.0"/>
       </font>
-   </Button>
+   </JFXButton>
    <CheckBox fx:id="remember" layoutX="151.0" layoutY="259.0" mnemonicParsing="false" text="Rememder Me"
              textFill="#a0a2ab">
       <font>
          <Font size="14.0"/>
       </font>
    </CheckBox>
-   <Button fx:id="forgotpassword" layoutX="151.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0"
+   <JFXButton fx:id="forgotpassword" layoutX="151.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0"
            prefWidth="303.0" text="Forgot your Password ?" underline="true">
       <font>
          <Font size="14.0"/>
       </font>
-   </Button>
+   </JFXButton>
    <ImageView fitHeight="113.0" fitWidth="171.0" layoutX="177.0" layoutY="14.0" pickOnBounds="true"
               preserveRatio="true">
       <Image url="@../Resources/image/java_logo.png"/>
