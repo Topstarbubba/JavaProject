@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
@@ -11,57 +11,47 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
-            prefWidth="600.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/8.0.121"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
-   <TextField fx:id="username" layoutX="151.0" layoutY="142.0" prefHeight="25.0" prefWidth="303.0"
-              promptText="Enter your Username">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+   <TextField fx:id="username" layoutX="151.0" layoutY="142.0" prefHeight="25.0" prefWidth="303.0" promptText="Enter your Username">
       <font>
-         <Font size="14.0"/>
+         <Font size="14.0" />
       </font>
       <cursor>
-         <Cursor fx:constant="DEFAULT"/>
+         <Cursor fx:constant="DEFAULT" />
       </cursor>
    </TextField>
-   <PasswordField fx:id="password" layoutX="151.0" layoutY="188.0" prefHeight="25.0" prefWidth="303.0"
-                  promptText="Enter your Password">
+   <PasswordField fx:id="password" layoutX="151.0" layoutY="188.0" prefHeight="25.0" prefWidth="303.0" promptText="Enter your Password">
       <font>
-         <Font size="14.0"/>
+         <Font size="14.0" />
       </font>
    </PasswordField>
-   <JFXButton fx:id="singup" layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#singUP" prefHeight="30.0"
-              prefWidth="103.0" text="Sing UP"/>
-   <JFXButton fx:id="login" layoutX="351.0" layoutY="254.0" mnemonicParsing="false" onAction="#loginAction"
-           prefHeight="25.0" prefWidth="103.0" text="Login">
+   <JFXButton fx:id="singup" layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#singUP" prefHeight="30.0" prefWidth="103.0" text="Sing UP" />
+   <JFXButton fx:id="login" layoutX="351.0" layoutY="254.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="25.0" prefWidth="103.0" ripplerFill="#9e4d4d" text="Login" textFill="WHITE">
       <font>
-         <Font size="14.0"/>
+         <Font size="14.0" />
       </font>
    </JFXButton>
-   <CheckBox fx:id="remember" layoutX="151.0" layoutY="259.0" mnemonicParsing="false" text="Rememder Me"
-             textFill="#a0a2ab">
+   <CheckBox fx:id="remember" layoutX="151.0" layoutY="259.0" mnemonicParsing="false" text="Rememder Me" textFill="#a0a2ab">
       <font>
-         <Font size="14.0"/>
+         <Font size="14.0" />
       </font>
    </CheckBox>
-   <JFXButton fx:id="forgotpassword" layoutX="151.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0"
-           prefWidth="303.0" text="Forgot your Password ?" underline="true">
+   <JFXButton fx:id="forgotpassword" layoutX="151.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="303.0" text="Forgot your Password ?" textFill="WHITE" underline="true">
       <font>
-         <Font size="14.0"/>
+         <Font size="14.0" />
       </font>
    </JFXButton>
-   <ImageView fitHeight="113.0" fitWidth="171.0" layoutX="177.0" layoutY="14.0" pickOnBounds="true"
-              preserveRatio="true">
-      <Image url="@../Resources/image/java_logo.png"/>
+   <ImageView fitHeight="113.0" fitWidth="171.0" layoutX="177.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../Resources/image/java_logo.png" />
    </ImageView>
    <Label layoutX="282.0" layoutY="48.0" text="Java" textFill="#f50a0a">
       <font>
-         <Font size="48.0"/>
+         <Font size="48.0" />
       </font>
    </Label>
    <ImageView id="progress" fx:id="progress" fitHeight="70.0" fitWidth="70.0" layoutX="495.0" layoutY="300.0">
       <image>
-         <Image url="@../Resources/image/main-loader.gif"/>
+         <Image url="@../Resources/image/main-loader.gif" />
       </image>
    </ImageView>
 </AnchorPane>

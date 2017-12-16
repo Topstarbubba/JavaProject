@@ -10,10 +10,13 @@ import javafx.stage.StageStyle;
 public class Main extends Application {
 
     @Override
+
     public void start(Stage primaryStage) throws Exception{
       try {
-          Parent root = FXMLLoader.load(getClass().getResource("../FXML/LoginMain.fxml"));
-          primaryStage.setTitle("Java");
+          Parent root = FXMLLoader.load(getClass().getResource("../FXML/LoginMain.fxml"))
+                  ;
+          primaryStage.setTitle("JavaFX");
+
           primaryStage.setScene(new Scene(root, 600, 400));
           primaryStage.initStyle(StageStyle.TRANSPARENT);
           primaryStage.show();
