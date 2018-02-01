@@ -10,7 +10,6 @@ import javafx.stage.StageStyle;
 public class Main extends Application {
 
     @Override
-
     public void start(Stage primaryStage) throws Exception{
       try {
           Parent root = FXMLLoader.load(getClass().getResource("../FXML/LoginMain.fxml"))
@@ -18,7 +17,7 @@ public class Main extends Application {
           primaryStage.setTitle("JavaFX");
 
           primaryStage.setScene(new Scene(root, 600, 400));
-          primaryStage.initStyle(StageStyle.TRANSPARENT);
+          primaryStage.initStyle(StageStyle.DECORATED);
           primaryStage.show();
           primaryStage.setResizable(false);
       } catch (Exception e) {
@@ -26,8 +25,6 @@ public class Main extends Application {
       }
 
     }
-
-
     public static void main(String[] args) {
         launch(args);
     }

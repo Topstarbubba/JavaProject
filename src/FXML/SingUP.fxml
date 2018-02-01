@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.RadioButton?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -12,36 +12,36 @@
 
 <AnchorPane fx:id="parentPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SingupController">
    <children>
-      <TextField fx:id="name" layoutX="198.0" layoutY="146.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Username">
+      <JFXTextField fx:id="name" layoutX="198.0" layoutY="146.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Username" unFocusColor="#d76d6d">
          <font>
             <Font size="14.0" />
          </font>
-      </TextField>
-      <PasswordField fx:id="password" layoutX="198.0" layoutY="191.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Rassword">
+      </JFXTextField>
+      <JFXPasswordField fx:id="password" layoutX="198.0" layoutY="191.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Rassword" unFocusColor="#ff7c7c">
          <font>
             <Font size="14.0" />
          </font>
-      </PasswordField>
-      <RadioButton fx:id="male" layoutX="198.0" layoutY="240.0" mnemonicParsing="false" text="  Male" textFill="WHITE">
+      </JFXPasswordField>
+      <JFXRadioButton fx:id="male" layoutX="198.0" layoutY="240.0" mnemonicParsing="false" text="  Male" textFill="#e85858">
          <font>
             <Font size="14.0" />
          </font>
-      </RadioButton>
-      <RadioButton fx:id="female" layoutX="333.0" layoutY="240.0" mnemonicParsing="false" text="  Female" textFill="WHITE">
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="female" layoutX="333.0" layoutY="240.0" mnemonicParsing="false" text="  Female" textFill="#ff7777">
          <font>
             <Font size="14.0" />
          </font>
-      </RadioButton>
-      <TextField fx:id="location" layoutX="198.0" layoutY="283.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Location">
+      </JFXRadioButton>
+      <JFXTextField fx:id="location" layoutX="198.0" layoutY="283.0" prefHeight="30.0" prefWidth="212.0" promptText="Enter your Location" unFocusColor="#eb6e6e">
          <font>
             <Font size="14.0" />
          </font>
-      </TextField>
-      <Button fx:id="singup" layoutX="198.0" layoutY="327.0" mnemonicParsing="false" onAction="#singUP" prefHeight="30.0" prefWidth="212.0" text="Sing UP">
+      </JFXTextField>
+      <JFXButton fx:id="singup" layoutX="198.0" layoutY="327.0" mnemonicParsing="false" onAction="#singUP" prefHeight="30.0" prefWidth="212.0" ripplerFill="RED" text="Sing UP" textFill="#e80000">
          <font>
             <Font size="14.0" />
          </font>
-      </Button>
+      </JFXButton>
       <ImageView fitHeight="113.0" fitWidth="171.0" layoutX="177.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Resources/image/java_logo.png" />
@@ -53,11 +53,11 @@
             <Image url="@../Resources/image/main-loader.gif" />
          </image>
       </ImageView>
-      <Button fx:id="login" layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#loginAction" text="Login">
+      <JFXButton fx:id="login" layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#loginAction" ripplerFill="#eb7777" text="Login" textFill="#f54444">
          <font>
             <Font size="14.0" />
          </font>
-      </Button>
+      </JFXButton>
       <Label layoutX="282.0" layoutY="48.0" text="Java" textFill="#f50a0a">
          <font>
             <Font size="48.0" />

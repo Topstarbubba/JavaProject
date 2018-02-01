@@ -1,17 +1,15 @@
 package Controllers;
 
-import com.jfoenix.controls.JFXPopup;
-import com.jfoenix.controls.JFXRippler;
+
 import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 
 import javafx.scene.Node;
-import javafx.scene.control.Label;
+
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
+
 import javafx.util.Duration;
 
 import java.io.IOException;
@@ -25,26 +23,14 @@ public class HomePageController implements Initializable{
     private AnchorPane anchor;
 
     @FXML
-    private HBox toolBarRight;
-
-    @FXML
-    private Label lblMenu;
-
-    @FXML
-    private VBox overflowContainer;
-
-    @FXML
     private AnchorPane holderPane;
 
     @FXML
     private AnchorPane home;
 
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
           createPage();
-
     }
 
     private void setNode(Node node){

@@ -117,7 +117,7 @@ public class SingupController implements Initializable{
         Parent root = FXMLLoader.load(getClass().getResource("../FXML/LoginMain.fxml"));
         Scene scene = new Scene(root);
         login.setScene(scene);
-        login.initStyle(StageStyle.TRANSPARENT);
+        login.initStyle(StageStyle.DECORATED);
         login.show();
         login.setResizable(false);
 

@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
-   <TextField fx:id="username" layoutX="151.0" layoutY="142.0" prefHeight="25.0" prefWidth="303.0" promptText="Enter your Username">
+   <JFXTextField fx:id="username" layoutX="151.0" layoutY="142.0" prefHeight="25.0" prefWidth="303.0" promptText="Enter your Username" unFocusColor="#ff7878">
       <font>
          <Font size="14.0" />
       </font>
       <cursor>
          <Cursor fx:constant="DEFAULT" />
       </cursor>
-   </TextField>
-   <PasswordField fx:id="password" layoutX="151.0" layoutY="188.0" prefHeight="25.0" prefWidth="303.0" promptText="Enter your Password">
+   </JFXTextField>
+   <JFXPasswordField fx:id="password" layoutX="151.0" layoutY="188.0" prefHeight="25.0" prefWidth="303.0" promptText="Enter your Password" unFocusColor="#ff8585">
       <font>
          <Font size="14.0" />
       </font>
-   </PasswordField>
+   </JFXPasswordField>
    <JFXButton fx:id="singup" layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#singUP" prefHeight="30.0" prefWidth="103.0" ripplerFill="#ddd2d2" text="Sing UP" textFill="#f16f55" />
    <JFXButton fx:id="login" buttonType="RAISED" layoutX="351.0" layoutY="254.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="25.0" prefWidth="103.0" ripplerFill="#f16f55" text="Login" textFill="#f16f55">
       <font>
          <Font size="14.0" />
       </font>
    </JFXButton>
-   <CheckBox fx:id="remember" layoutX="151.0" layoutY="259.0" mnemonicParsing="false" text="Rememder Me" textFill="#f16f55">
+   <JFXCheckBox fx:id="remember" checkedColor="#ff6a6a" layoutX="151.0" layoutY="259.0" mnemonicParsing="false" text="Rememder Me" textFill="#f16f55" unCheckedColor="#ff7e7e">
       <font>
          <Font size="14.0" />
       </font>
-   </CheckBox>
+   </JFXCheckBox>
    <JFXButton fx:id="forgotpassword" layoutX="151.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="303.0" text="Forgot your Password ?" textFill="#f16f55" underline="true">
       <font>
          <Font size="14.0" />

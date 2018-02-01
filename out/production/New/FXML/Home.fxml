@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.control.Button?>
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="home" prefHeight="325.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="home" prefHeight="325.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="14.0" layoutY="24.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="209.0" />
-      <Button layoutX="14.0" layoutY="176.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="209.0" />
-      <Button layoutX="242.0" layoutY="24.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="209.0" />
-      <Button layoutX="242.0" layoutY="176.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="209.0" />
+      <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="209.0" ripplerFill="#9a91ff" textOverrun="CLIP" />
+      <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="176.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="209.0" ripplerFill="#9b91ff" textOverrun="CLIP" />
+      <JFXButton buttonType="RAISED" layoutX="242.0" layoutY="24.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="209.0" ripplerFill="#8b82ee" textOverrun="CLIP" />
+      <JFXButton buttonType="RAISED" layoutX="242.0" layoutY="176.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="209.0" ripplerFill="#9b91ff" textOverrun="CLIP" />
    </children>
 </AnchorPane>

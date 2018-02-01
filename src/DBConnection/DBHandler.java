@@ -12,7 +12,6 @@ public class DBHandler extends Configs{
 
         String connectionSting = "jdbc:mysql://" + Configs.dbhost + ":" + Configs.dbport + "/" + Configs.dbname + "?autoReconnect-true&useSSL=false";
 
-
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
@@ -25,7 +24,6 @@ public class DBHandler extends Configs{
 
             e.printStackTrace();
         }
-
 
         return dbconnection;
 

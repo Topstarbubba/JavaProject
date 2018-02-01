@@ -103,7 +103,7 @@ public class LoginController implements Initializable {
                         Parent root = FXMLLoader.load(getClass().getResource("/FXML/HomePage.fxml"));
                         Scene scene = new Scene(root);
                         home.setScene(scene);
-                        home.initStyle(StageStyle.TRANSPARENT);
+                        home.initStyle(StageStyle.DECORATED);
                         home.show();
 
                     } catch (IOException e) {
@@ -153,7 +153,7 @@ public class LoginController implements Initializable {
         Parent root = FXMLLoader.load(getClass().getResource("../FXML/SingUP.fxml"));
         Scene scene = new Scene(root);
         singup.setScene(scene);
-        singup.initStyle(StageStyle.TRANSPARENT);
+        singup.initStyle(StageStyle.DECORATED);
         singup.show();
         singup.setResizable(false);
 
