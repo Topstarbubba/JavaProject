@@ -22,17 +22,17 @@
                         <Font name="Franklin Gothic Medium Italic" size="18.0" />
                      </font>
                   </Label>
-                  <JFXButton layoutX="34.0" layoutY="84.0" mnemonicParsing="false" opacity="0.7" prefHeight="25.0" prefWidth="82.0" text="Button" textFill="#d5dcf4">
+                  <JFXButton layoutX="34.0" layoutY="84.0" mnemonicParsing="false" opacity="0.7" prefHeight="25.0" prefWidth="82.0" text="Выбрать" textFill="#d5dcf4">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="34.0" layoutY="126.0" mnemonicParsing="false" opacity="0.7" prefHeight="25.0" prefWidth="82.0" text="Button" textFill="#d5dcf4">
+                  <JFXButton layoutX="34.0" layoutY="126.0" mnemonicParsing="false" opacity="0.7" prefHeight="30.0" prefWidth="89.0" text="Изменить" textFill="#d5dcf4">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="34.0" layoutY="165.0" mnemonicParsing="false" opacity="0.7" prefHeight="25.0" prefWidth="82.0" text="Button" textFill="#d5dcf4" textOverrun="CLIP">
+                  <JFXButton layoutX="34.0" layoutY="165.0" mnemonicParsing="false" opacity="0.7" prefHeight="25.0" prefWidth="82.0" text="Удалить" textFill="#d5dcf4" textOverrun="CLIP">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -40,7 +40,7 @@
                         <Cursor fx:constant="V_RESIZE" />
                      </cursor>
                   </JFXButton>
-                  <JFXButton layoutX="34.0" layoutY="246.0" mnemonicParsing="false" opacity="0.7" prefHeight="30.0" prefWidth="82.0" text="Button" textFill="#d5dcf4">
+                  <JFXButton layoutX="34.0" layoutY="246.0" mnemonicParsing="false" opacity="0.7" prefHeight="30.0" prefWidth="82.0" text="Назад" textFill="#d5dcf4">
                      <font>
                         <Font size="14.0" />
                      </font>
