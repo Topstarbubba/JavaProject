@@ -30,6 +30,9 @@
       <console name="Connection" type="STANDARD" />
     </connection>
   </component>
+  <component name="DBNavigator.Project.DatabaseSessionManager">
+    <connection id="1c6acb2c-511e-46d8-91af-87daf463df67" />
+  </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-list connection-id="1c6acb2c-511e-46d8-91af-87daf463df67" dataset="genius.youtubers" active-filter-id="EMPTY_FILTER">
       <filter id="64c1c56c-9730-4690-a140-01d362c1becb" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
@@ -94,6 +97,7 @@
         </ssh-settings>
         <details>
           <charset value="UTF-8" />
+          <session-management value="true" />
           <ddl-file-binding value="true" />
           <database-logging value="false" />
           <connect-automatically value="true" />
@@ -451,7 +455,6 @@
         <debug-execution-timeout value="600" />
         <focus-result value="false" />
         <prompt-execution value="false" />
-        <target-connection value="ASK" />
       </statement-execution>
       <script-execution>
         <command-line-interfaces />
